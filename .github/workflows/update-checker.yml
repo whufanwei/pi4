@@ -7,8 +7,10 @@ env:
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 16 */5 * ?'
+#  schedule:
+#    - cron: '0 16 */5 * ?'
+  watch:
+    types: started
 
 jobs:
   check:

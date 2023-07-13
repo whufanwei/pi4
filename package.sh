@@ -12,6 +12,3 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/otherapp/lu
 
 # Mentohust
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/otherapp/mentohust
-
-# UnblockNeteaseMusic
-git clone -b master  https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/unblockneteasemusic

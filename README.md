@@ -22,19 +22,17 @@
     <a href="https://github.com/bigbugcc/OpenWrts"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bigbugcc/OpenWrts/releases">下载地址</a>
+    <a href="https://github.com/whufanwei/pi4/releases">下载地址</a>
     ·
-    <a href="https://github.com/bigbugcc/OpenWrts/actions">Action</a>
+    <a href="https://github.com/whufanwei/OpenWrts/actions">Action</a>
     ·
-    <a href="https://github.com/bigbugcc/OpenWrts/issues">提出新特性</a>
-  </p>
+
 
 
 </p>
 
 ## 目录
 
-- [支持的设备](#支持的设备)  
 
 - [固件特性](#固件特性)
 - [自带插件](#自带插件)
@@ -48,19 +46,6 @@
 <br>
 
 
-## 支持的设备
-|           支持的设备        |         固类别         |        Action         |            状态          |              下载页          |
-| :------------------------: | :---------------------: | :-------------------: | :-------------------: | :--------------------------: |
-|             x86_64                    |  [LEDE](https://github.com/coolsnowwolf/lede) |[🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/x86_64.yml) | ![x86_64](https://github.com/bigbugcc/openwrts/actions/workflows/x86_64.yml/badge.svg) |  [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-| x86_64Lite | [LEDE](https://github.com/coolsnowwolf/lede) |[🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/x86_64Lite.yml) | ![x86_64Lite](https://github.com/bigbugcc/openwrts/actions/workflows/x86_64Lite.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             树莓派 3B/3B+             | [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/RaspberryPi3.yml) | ![RaspberryPi3](https://github.com/bigbugcc/openwrts/actions/workflows/RaspberryPi3.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             树莓派 4B             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/RaspberryPi4.yml) | ![RaspberryPi4](https://github.com/bigbugcc/openwrts/actions/workflows/RaspberryPi4.yml/badge.svg) |  [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             NanoPi R2S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip_armv8.yml) | ![R2S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip_armv8.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             NanoPi R4S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip_armv8.yml) | ![R4S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip_armv8.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             Orange Pi R1 Plus             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip_armv8.yml) | ![OrangePiR1](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip_armv8.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-
-<br>
-
 ### 🎯固件默认设置   
 - 路由器地址: `192.168.10.1`   
 - 默认用户名: `root`   
@@ -70,49 +55,12 @@
 
 ## 固件特性
 ⏰ 固件编译改为`周更`(稳定为主，减少资源浪费)  
-✨ 自带常用的插件   
-✨ 集成所有openwrt的USB驱动   
-✨ 集成Python3.x(带pip)环境   
-✨ 集成Docker-CE   
-✨ ~~集成Node.js(14.xLTS 带npm、yarn)~~   
+
 ✨ 全新的 [Them](https://github.com/jerrykuku/luci-theme-argon)  
-✨ x86_64 vmdk固件集成vm-tools   
-✨ x86_64 iso格式镜像  
-✨ x86_64 Lite版本(只添加必要插件)  
+  
 
 <br>
 
-## 自带插件
-🍕 默认插件
-- PassWall2 / SSR Plus
-- AdGuard Home
-- Mentohust
-- ~~luci-app-vssr~~   
-- luci-adbyby-plus
-- luci-app-unblockmusic
-- luci-app-ddns
-- luci-app-pushbot (全能推送)
-- luci-app-onliner
-- luci-app-ttyd
-- luci-app-turboacc
-- luci-app-upnp
-- luci-app-netdata
-- luci-usb-printer
-- luci-app-nps
-- luci-app-frpc
-- luci-app-n2n
-- luci-app-syncdial (多播插件)
-- luci-app-turboacc
-- luci-app-kms  
-- luci-app-docker   
-- luci-app-serverchan   
-- luci-app-control-timewol (定时wol唤醒)   
-- luci-app-aliyundrive-webdav (阿里云盘)  
-- luci-app-filebrowser   
-- luci-app-nfs   
-......
-
-<br>
 
 ## 文件目录说明
 eg:
@@ -120,25 +68,17 @@ eg:
 ```
 filetree 
 ├── .github/workflows
-│  ├── Rockchip_armv8.yml
-│  ├── RaspberryPi3.yml
 │  ├── RaspberryPi4.yml
-│  ├── x86_64.yml     
-│  ├── x86_64Lite.yml
 │  ├── update-checker.yml
 ├── /configs/ (配置文件目录)
 │  ├── External.config (插件配置文件)
-│  ├── External_Lite.config (轻量版)
-│  ├── RPi3.config
 │  ├── RPi4.config
-│  ├── x86_64.config
-│  ├── x86_64Lite.config
 ├── configure.sh (固件参数修改)
 ├── package.sh (luci-app)
 
 Tips:
-x86.conf | RPi4.config - 该类型配置文件主要为机型配置文件
-External.conf / External_Lite.conf - 主要用于配置固件插件应用
+RPi4.config - 该类型配置文件主要为机型配置文件
+External.conf  - 主要用于配置固件插件应用
 ```
 <br>
 

@@ -4,25 +4,13 @@
 ⏰ **每周自动拉取最新源码自动编译**
 
 
-<br />
-
-<p align="center">
-  
   <h3 align="center">Openwrt/LEDE 云编译</h3>
-  <p align="center">
-    👉 每周定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/whufanwei/pi4/releases"> Releases </a>]👈
-    <br />
     
+    <a href="https://github.com/whufanwei/pi4/releases"> 下载地址 </a>
     
-    
-    <a href="https://github.com/whufanwei/pi4/releases">下载地址</a>
-    ·
-    <a href="https://github.com/whufanwei/pi4/actions">Action</a>
-    ·
+    <a href="https://github.com/whufanwei/pi4/actions"> Action </a>
 
 
-
-</p>
 
 ## 目录
 

@@ -3,28 +3,21 @@
 # Action Openwrt 云自动编译
 ⏰ **每周自动拉取最新源码自动编译**
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <br />
 
 <p align="center">
-  <a href="https://github.com/bigbugcc/OpenWrts">
-    <img src="./assets/images/action1.jpg" alt="Logo" width="500" />
-  </a>
+  
   <h3 align="center">Openwrt/LEDE 云编译</h3>
   <p align="center">
-    👉 每周定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/bigbugcc/OpenWrts/releases"> Releases </a>]👈
+    👉 每周定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/whufanwei/pi4/releases"> Releases </a>]👈
     <br />
-    <a href="https://github.com/bigbugcc/OpenWrts"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
+    
+    
+    
     <a href="https://github.com/whufanwei/pi4/releases">下载地址</a>
     ·
-    <a href="https://github.com/whufanwei/OpenWrts/actions">Action</a>
+    <a href="https://github.com/whufanwei/pi4/actions">Action</a>
     ·
 
 
@@ -35,7 +28,6 @@
 
 
 - [固件特性](#固件特性)
-- [自带插件](#自带插件)
 - [文件目录说明](#文件目录说明)  
 - [定制固件](#定制固件)  
   - [注意事项](#注意事项)  
@@ -124,18 +116,3 @@ External.conf  - 主要用于配置固件插件应用
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
 
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/bigbugcc/OpenWrts.svg)](https://starchart.cc/bigbugcc/OpenWrts)
-
-<!-- links -->
-[your-project-path]:https://github.com/bigbugcc/OpenWrts/
-[contributors-shield]: https://img.shields.io/github/contributors/bigbugcc/OpenWrts?style=flat-square
-[contributors-url]: https://github.com/bigbugcc/OpenWrts/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bigbugcc/OpenWrts?style=flat-square
-[forks-url]: https://github.com/bigbugcc/OpenWrts/network/members
-[stars-shield]: https://img.shields.io/github/stars/bigbugcc/OpenWrts?style=flat-square
-[stars-url]: https://github.com/bigbugcc/OpenWrts/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bigbugcc/OpenWrts?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/bigbugcc/OpenWrts
-[license-shield]: https://img.shields.io/github/license/bigbugcc/OpenWrts?style=flat-square
-[license-url]: https://github.com/bigbugcc/OpenWrts/blob/master/LICENSE

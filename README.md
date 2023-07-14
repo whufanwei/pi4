@@ -1,10 +1,10 @@
 
 
-# Action Openwrt 云自动编译
+#  Openwrt 云自动编译
 ⏰ **每周自动拉取最新源码自动编译**
 
     
-  <p>  <a href="https://github.com/whufanwei/pi4/releases"> 下载地址 </a>
+  <p align=center>  <a href="https://github.com/whufanwei/pi4/releases"> 下载地址 </a>
     .
     <a href="https://github.com/whufanwei/pi4/actions"> Action </a> </p>
 
@@ -19,13 +19,12 @@
   - [注意事项](#注意事项)  
 - [固件预览](#固件预览)
 - [版权说明](#版权说明)
-- [项目支持](#项目支持)
 
 <br>
 
 
 ### 🎯固件默认设置   
-- 路由器地址: `192.168.10.1`   
+- 路由器地址: `192.168.50.100`   
 - 默认用户名: `root`   
 - 默认密码  : `password`
 

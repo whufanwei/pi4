@@ -3,12 +3,10 @@
 # Action Openwrt 云自动编译
 ⏰ **每周自动拉取最新源码自动编译**
 
-
-  <h3 align="center">Openwrt/LEDE 云编译</h3>
     
-    <a href="https://github.com/whufanwei/pi4/releases"> 下载地址 </a>
-    
-    <a href="https://github.com/whufanwei/pi4/actions"> Action </a>
+  <p>  <a href="https://github.com/whufanwei/pi4/releases"> 下载地址 </a>
+    .
+    <a href="https://github.com/whufanwei/pi4/actions"> Action </a> </p>
 
 
 

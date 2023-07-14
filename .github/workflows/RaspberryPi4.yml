@@ -8,6 +8,11 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+        
+permissions: 
+  contents: write
+  id-token: write
+  
 
 env:
   OPNAME: 'Raspberry Pi4'

@@ -10,6 +10,9 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 # luci-theme-infinityfreedom
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
 
+# luci-theme-neobird
+echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird.git' >>feeds.conf.default
+
 # passwall
 echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
 echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall2.git" >> feeds.conf.default

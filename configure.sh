@@ -25,16 +25,10 @@ find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
-#修复核心及添加温度显示
-sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
-sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\/thermal_zone0\/temp` \/ 1000") or "?"%> \&#8451; ) /g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
-
 # 修改默认IP为192.168.50.100
 sed -i 's/192.168.1.1/192.168.50.100/g' package/base-files/files/bin/config_generate 
 
 #修改机器名称
 sed -i 's/OpenWrt/RaspberryPi4/g' package/base-files/files/bin/config_generate
 
-#替换banner
-rm -rf package/base-files/files/etc/banner
-cp -f ../banner package/base-files/files/etc/
+

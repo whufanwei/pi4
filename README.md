@@ -81,15 +81,6 @@ External.conf  - 主要用于配置固件插件应用
 **服务/插件：**
 ![服务/插件](./assets/images/service.png)
 
-**网络：**
-![网络](./assets/images/network.png)
-
-**经典主题二：**
-![登录页](./assets/images/infinityfreedom-theme.png)
-
-**主界面：**
-![主界面](./assets/images/infinityfreedom-theme-main.png)
-
 
 ## 版权说明
 

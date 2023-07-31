@@ -1,6 +1,6 @@
 
 
-#  Openwrt 云自动编译
+##  Openwrt 云自动编译
 
 
     
@@ -10,7 +10,7 @@
 
 
 
-## 目录
+### 目录
 
 
 - [固件特性](#固件特性)
@@ -30,7 +30,7 @@
 
 <br>
 
-## 固件特性
+### 固件特性
 ⏰ 固件编译改为`周更`(稳定为主，减少资源浪费)  
 
 ✨ 全新的 [Them](https://github.com/jerrykuku/luci-theme-argon)  
@@ -39,7 +39,7 @@
 <br>
 
 
-## 文件目录说明
+### 文件目录说明
 eg:
 
 ```
@@ -66,7 +66,7 @@ External.conf  - 主要用于配置固件插件应用
 
 <br>
 
-## 固件预览
+### 固件预览
 **主界面(主题一)：**
 ![主界面](./assets/images/openwrt.png)
 
@@ -74,7 +74,7 @@ External.conf  - 主要用于配置固件插件应用
 ![服务/插件](./assets/images/service.png)
 
 
-## 版权说明
+### 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/bigbugcc/OpenWrts/blob/main/LICENSE)
 

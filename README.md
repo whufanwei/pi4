@@ -23,18 +23,10 @@
 <br>
 
 
-### 🎯固件默认设置   
+### 固件默认设置   
 - 路由器地址: `192.168.50.100`   
 - 默认用户名: `root`   
 - 默认密码  : `password`
-
-<br>
-
-### 固件特性
-⏰ 固件编译改为`周更`(稳定为主，减少资源浪费)  
-
-✨ 全新的 [Them](https://github.com/jerrykuku/luci-theme-argon)  
-  
 
 <br>
 
@@ -58,7 +50,6 @@ External.conf  - 主要用于配置固件插件应用
 ```
 <br>
 
-
 ### 注意事项：
 📌 修改默认系统参数 👉 ```configure.sh```   
 📌 添加其它Luci插件 👉 ```package.sh```  
@@ -79,7 +70,7 @@ External.conf  - 主要用于配置固件插件应用
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/bigbugcc/OpenWrts/blob/main/LICENSE)
 
 
-## 项目支持
+### 项目支持
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
